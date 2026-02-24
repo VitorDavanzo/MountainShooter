@@ -1,4 +1,4 @@
-# O .gitignore é um arquivo que vai dizer tudo que tem que ser ignorado e não ir no github - seriam os arquivos sensiveis - o Código a baixo foi pego no gititignore.io (no site, escreve 'python' e clica em criar - ele irá gerar esse código)
+# O .gitignore é um arquivo que vai dizer tudo que tem que ser ignorado e não ir no github - seriam os arquivos sensiveis - o Código a baixo foi pego no gitignore.io (no site, escreve 'python' e clica em criar - ele irá gerar esse código)
 
 # Created by https://www.toptal.com/developers/gitignore/api/python
 # Edit at https://www.toptal.com/developers/gitignore?templates=python
