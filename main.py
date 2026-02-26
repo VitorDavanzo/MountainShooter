@@ -1,14 +1,4 @@
-import pygame
-
-print('Setup Start')
-pygame.init()
-window = pygame.display.set_mode(size=(600, 480))
-print('Setup End')
-
-print('Loop Start')
-while True:
-    # Check for all events
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            pygame.quit()  # Close window
-            quit()  # End Pygame
+from code.game import Game
+#a ideia é deixar a main limpa. então as alterações erã feitas nos outros arquivos, e a main vai puxar esses arquivos através do import
+game = Game()
+game.run()
