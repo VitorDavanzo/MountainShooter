@@ -1,6 +1,7 @@
 #esse arquivo é para definir constantes. no jogo ele será utilizado para localizar melhor essas constantes, no caso, o tamanho da janela. Ao inves de ficar procurando onde está esse atributo, é só alterar a que aparece nesse arquivo
 # #Pela PEP8 (acho que é isso), constantes deve ser representada sem pre em caixa ALTA
 #a cada nova constante, oraganizar em ordem alfabética, comentando a letra
+import pygame
 
 #C
 COLOR_ORANGE = (255,128,0)
@@ -16,10 +17,28 @@ ENTITY_SPEED = {
         'Level1Bg4' : 4,
         'Level1Bg5' : 5,
         'Level1Bg6' : 6,
+        'Player1' : 3,
+        'Player2' : 3,
 }
 
 #M
-MENU_OPTION = ('NEW GAME 1P','NEW GAME 2P -COOPERATIVE', 'NEW GAME 2P - COMPETITIVE', 'SCORE', 'EXIT')
+MENU_OPTION = ('NEW GAME 1P',
+               'NEW GAME 2P -COOPERATIVE',
+               'NEW GAME 2P - COMPETITIVE',
+               'SCORE',
+               'EXIT')
+
+#P
+PLAYER_KEY_UP = {'Player1': pygame.K_UP,
+                 'Player2': pygame.K_w}
+PLAYER_KEY_DOWN = {'Player1': pygame.K_DOWN,
+                   'Player2': pygame.K_s}
+PLAYER_KEY_LEFT = {'Player1': pygame.K_LEFT,
+                   'Player2': pygame.K_a}
+PLAYER_KEY_RIGHT = {'Player1': pygame.K_RIGHT,
+                    'Player2': pygame.K_d}
+PLAYER_KEY_SHOOT = {'Player1': pygame.K_RCTRL,
+                    'Player2': pygame.K_LCTRL}
 
 #W
 WIN_WIDTH = 576
