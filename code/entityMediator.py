@@ -1,6 +1,9 @@
+from code import playerShot, enemyShot
 from code.const import WIN_WIDTH
 from code.enemy import Enemy
+from code.enemyShot import EnemyShot
 from code.entity import Entity
+from code.playerShot import PlayerShot
 
 
 class EntityMediator:
